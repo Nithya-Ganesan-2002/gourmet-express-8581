@@ -1,0 +1,73 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg-secondary);
+  padding: 12px 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+.brand {
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-right: 16px;
+  text-decoration: none;
+}
+.nav-link {
+  color: var(--text-primary);
+  margin-right: 12px;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: var(--text-secondary);
+}
+.btn {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.btn-small {
+  padding: 6px 10px;
+  font-size: 14px;
+}
+.btn-outline {
+  background: transparent;
+  color: var(--button-bg);
+  border: 1px solid var(--button-bg);
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+.card {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 12px;
+  background: var(--bg-primary);
+}
+.input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+.label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
